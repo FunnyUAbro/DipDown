@@ -1,0 +1,734 @@
+fileFormatVersion: 2
+guid: b67801bde54105a49902dcc18247e8c1
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Guy_Weapons_Handling_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1280
+        width: 256.2
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4f10eefa7c11af47ac1dd58c9daefaa
+      internalID: 128578659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guy_Weapons_Handling_1
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1280
+        width: 256.2
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0051fb8947125734ab6b5f58680e7247
+      internalID: 512016960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guy_Weapons_Handling_2
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1280
+        width: 256.2
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c4d4b66ddb7a484a8d9da1c6d8f4394
+      internalID: 1191757624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guy_Weapons_Handling_3
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1280
+        width: 256.2
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0c4b5f2cd379e449b3bf13796cdcd6d
+      internalID: 238582092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guy_Weapons_Handling_4
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1280
+        width: 256.2
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e734b8de02abd174799e1ce1a6d84857
+      internalID: -273089873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guy_Weapons_Handling_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1024
+        width: 256.2
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e42ce9caa68de064fb60409f465dd82a
+      internalID: 1004971219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guy_Weapons_Handling_6
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1024
+        width: 256.2
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40015a4a81dc5cf4eb32794d125f4b90
+      internalID: -82232133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guy_Weapons_Handling_7
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1024
+        width: 256.2
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99d61ac7a6ce02942a7e5acb50adb5fd
+      internalID: -2035095608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guy_Weapons_Handling_8
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1024
+        width: 256.2
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c93b1283087820c48bd686d37f3b2ea2
+      internalID: 873216259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guy_Weapons_Handling_9
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1024
+        width: 256.2
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d43cd0f6d6b1dd49abd72fe12650776
+      internalID: 1220558162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guy_Weapons_Handling_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 256.2
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b13b524d22a6304f89e6ea318ee4050
+      internalID: -1977805543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guy_Weapons_Handling_11
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 768
+        width: 256.2
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a7b5f3751bc6214b898f5c4a6acc05f
+      internalID: -1928430829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guy_Weapons_Handling_12
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 768
+        width: 256.2
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bec1c7d0bb479c048a513c3ff55bd35a
+      internalID: -1260343005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guy_Weapons_Handling_13
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 768
+        width: 256.2
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 378e1837516ad254cb2d6e7709235ccf
+      internalID: -2133420482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guy_Weapons_Handling_14
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 768
+        width: 256.2
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc5c922b0ef2f324c8a5432741ac0b0f
+      internalID: 710975764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guy_Weapons_Handling_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 256.2
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20913328ee90d37438482b533626d24b
+      internalID: -616419496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guy_Weapons_Handling_16
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 512
+        width: 256.2
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 783e0c8f22784bf409ef8da864d1c709
+      internalID: -2092392585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guy_Weapons_Handling_17
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 512
+        width: 256.2
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2d44334166a3124a8975504ae02c193
+      internalID: -1656765658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guy_Weapons_Handling_18
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 512
+        width: 256.2
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5389cad38e30db4e93dd1063fde83e0
+      internalID: 1451235370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guy_Weapons_Handling_19
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 512
+        width: 256.2
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fdf9866e43bc9e4f841d968df1942a6
+      internalID: 226475889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guy_Weapons_Handling_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 256.2
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25937fd34df0b944b9b2517b64ab4430
+      internalID: 1548960415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guy_Weapons_Handling_21
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 256.2
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1b9f2486d7beb54f83c3f5bd6609b24
+      internalID: 1470413876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guy_Weapons_Handling_22
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 256
+        width: 256.2
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1098d1ac306386048b24e6d9f831b439
+      internalID: 973779385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guy_Weapons_Handling_23
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 256
+        width: 256.2
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 411ded3fd6e1dd948aa4e12318cfd1ce
+      internalID: 173351768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guy_Weapons_Handling_24
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 256
+        width: 256.2
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c2819747f9da924693c365bc6433739
+      internalID: 1544364795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guy_Weapons_Handling_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 256.2
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40e5038c0498e5547bed49885557c89a
+      internalID: 1867159522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guy_Weapons_Handling_26
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 256.2
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b2606d8901449b41ac7b50a3bcf9c86
+      internalID: 1060753736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Guy_Weapons_Handling_0: 128578659
+      Guy_Weapons_Handling_1: 512016960
+      Guy_Weapons_Handling_10: -1977805543
+      Guy_Weapons_Handling_11: -1928430829
+      Guy_Weapons_Handling_12: -1260343005
+      Guy_Weapons_Handling_13: -2133420482
+      Guy_Weapons_Handling_14: 710975764
+      Guy_Weapons_Handling_15: -616419496
+      Guy_Weapons_Handling_16: -2092392585
+      Guy_Weapons_Handling_17: -1656765658
+      Guy_Weapons_Handling_18: 1451235370
+      Guy_Weapons_Handling_19: 226475889
+      Guy_Weapons_Handling_2: 1191757624
+      Guy_Weapons_Handling_20: 1548960415
+      Guy_Weapons_Handling_21: 1470413876
+      Guy_Weapons_Handling_22: 973779385
+      Guy_Weapons_Handling_23: 173351768
+      Guy_Weapons_Handling_24: 1544364795
+      Guy_Weapons_Handling_25: 1867159522
+      Guy_Weapons_Handling_26: 1060753736
+      Guy_Weapons_Handling_3: 238582092
+      Guy_Weapons_Handling_4: -273089873
+      Guy_Weapons_Handling_5: 1004971219
+      Guy_Weapons_Handling_6: -82232133
+      Guy_Weapons_Handling_7: -2035095608
+      Guy_Weapons_Handling_8: 873216259
+      Guy_Weapons_Handling_9: 1220558162
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

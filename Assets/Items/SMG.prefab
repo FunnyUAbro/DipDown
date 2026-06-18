@@ -1,0 +1,197 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &5287279852199334541
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 358768868469966887, guid: 1b1fcab2a941f384aa23dd0116619260, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -43.84
+      objectReference: {fileID: 0}
+    - target: {fileID: 358768868469966887, guid: 1b1fcab2a941f384aa23dd0116619260, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -9.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 358768868469966887, guid: 1b1fcab2a941f384aa23dd0116619260, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 358768868469966887, guid: 1b1fcab2a941f384aa23dd0116619260, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 358768868469966887, guid: 1b1fcab2a941f384aa23dd0116619260, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 358768868469966887, guid: 1b1fcab2a941f384aa23dd0116619260, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 358768868469966887, guid: 1b1fcab2a941f384aa23dd0116619260, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 358768868469966887, guid: 1b1fcab2a941f384aa23dd0116619260, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 358768868469966887, guid: 1b1fcab2a941f384aa23dd0116619260, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 358768868469966887, guid: 1b1fcab2a941f384aa23dd0116619260, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1047496224053607538, guid: 1b1fcab2a941f384aa23dd0116619260, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 791154114, guid: 160ca8d5f7ed02642977046fe58cce23, type: 3}
+    - target: {fileID: 1878803184348232275, guid: 1b1fcab2a941f384aa23dd0116619260, type: 3}
+      propertyPath: m_Name
+      value: SMG
+      objectReference: {fileID: 0}
+    - target: {fileID: 3168599969684267956, guid: 1b1fcab2a941f384aa23dd0116619260, type: 3}
+      propertyPath: looping
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3168599969684267956, guid: 1b1fcab2a941f384aa23dd0116619260, type: 3}
+      propertyPath: InitialModule.startSize.scalar
+      value: 0.17
+      objectReference: {fileID: 0}
+    - target: {fileID: 3168599969684267956, guid: 1b1fcab2a941f384aa23dd0116619260, type: 3}
+      propertyPath: UVModule.sprites.Array.data[0].sprite
+      value: 
+      objectReference: {fileID: -295961721, guid: 160ca8d5f7ed02642977046fe58cce23, type: 3}
+    - target: {fileID: 3168599969684267956, guid: 1b1fcab2a941f384aa23dd0116619260, type: 3}
+      propertyPath: UVModule.sprites.Array.data[1].sprite
+      value: 
+      objectReference: {fileID: -765827240, guid: 160ca8d5f7ed02642977046fe58cce23, type: 3}
+    - target: {fileID: 3168599969684267956, guid: 1b1fcab2a941f384aa23dd0116619260, type: 3}
+      propertyPath: SizeModule.curve.maxCurve.m_Curve.Array.data[1].time
+      value: 0.99401855
+      objectReference: {fileID: 0}
+    - target: {fileID: 3168599969684267956, guid: 1b1fcab2a941f384aa23dd0116619260, type: 3}
+      propertyPath: SizeModule.curve.maxCurve.m_Curve.Array.data[1].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3168599969684267956, guid: 1b1fcab2a941f384aa23dd0116619260, type: 3}
+      propertyPath: SizeModule.curve.maxCurve.m_Curve.Array.data[0].inSlope
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3168599969684267956, guid: 1b1fcab2a941f384aa23dd0116619260, type: 3}
+      propertyPath: SizeModule.curve.maxCurve.m_Curve.Array.data[1].inSlope
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3168599969684267956, guid: 1b1fcab2a941f384aa23dd0116619260, type: 3}
+      propertyPath: SizeModule.curve.maxCurve.m_Curve.Array.data[0].outSlope
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3168599969684267956, guid: 1b1fcab2a941f384aa23dd0116619260, type: 3}
+      propertyPath: SizeModule.curve.maxCurve.m_Curve.Array.data[1].inWeight
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 3168599969684267956, guid: 1b1fcab2a941f384aa23dd0116619260, type: 3}
+      propertyPath: SizeModule.curve.maxCurve.m_Curve.Array.data[1].outSlope
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3168599969684267956, guid: 1b1fcab2a941f384aa23dd0116619260, type: 3}
+      propertyPath: SizeModule.curve.maxCurve.m_Curve.Array.data[0].outWeight
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 4182958453878219652, guid: 1b1fcab2a941f384aa23dd0116619260, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 1333942582, guid: 160ca8d5f7ed02642977046fe58cce23, type: 3}
+    - target: {fileID: 5505288695693791007, guid: 1b1fcab2a941f384aa23dd0116619260, type: 3}
+      propertyPath: ammo
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 5505288695693791007, guid: 1b1fcab2a941f384aa23dd0116619260, type: 3}
+      propertyPath: damage
+      value: 24
+      objectReference: {fileID: 0}
+    - target: {fileID: 5505288695693791007, guid: 1b1fcab2a941f384aa23dd0116619260, type: 3}
+      propertyPath: maxAmmo
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 5505288695693791007, guid: 1b1fcab2a941f384aa23dd0116619260, type: 3}
+      propertyPath: openGun
+      value: 
+      objectReference: {fileID: 962195069, guid: 160ca8d5f7ed02642977046fe58cce23, type: 3}
+    - target: {fileID: 5505288695693791007, guid: 1b1fcab2a941f384aa23dd0116619260, type: 3}
+      propertyPath: ammoType
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5505288695693791007, guid: 1b1fcab2a941f384aa23dd0116619260, type: 3}
+      propertyPath: boltType
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5505288695693791007, guid: 1b1fcab2a941f384aa23dd0116619260, type: 3}
+      propertyPath: shootSFX
+      value: 
+      objectReference: {fileID: 8300000, guid: 8e7a88959296bc54aaa6aa04daf50d39, type: 3}
+    - target: {fileID: 5505288695693791007, guid: 1b1fcab2a941f384aa23dd0116619260, type: 3}
+      propertyPath: closedGun
+      value: 
+      objectReference: {fileID: 791154114, guid: 160ca8d5f7ed02642977046fe58cce23, type: 3}
+    - target: {fileID: 5505288695693791007, guid: 1b1fcab2a941f384aa23dd0116619260, type: 3}
+      propertyPath: reloadSFX
+      value: 
+      objectReference: {fileID: 8300000, guid: 6cdffbba9aca0354ca913423d56f9a5b, type: 3}
+    - target: {fileID: 5505288695693791007, guid: 1b1fcab2a941f384aa23dd0116619260, type: 3}
+      propertyPath: punchPower
+      value: 0.85
+      objectReference: {fileID: 0}
+    - target: {fileID: 5505288695693791007, guid: 1b1fcab2a941f384aa23dd0116619260, type: 3}
+      propertyPath: reloadTime
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5505288695693791007, guid: 1b1fcab2a941f384aa23dd0116619260, type: 3}
+      propertyPath: boltOpenSFX
+      value: 
+      objectReference: {fileID: 8300000, guid: b373ea090a9585348a14347bf5361624, type: 3}
+    - target: {fileID: 5505288695693791007, guid: 1b1fcab2a941f384aa23dd0116619260, type: 3}
+      propertyPath: sideOpenGun
+      value: 
+      objectReference: {fileID: -210695348, guid: 160ca8d5f7ed02642977046fe58cce23, type: 3}
+    - target: {fileID: 5505288695693791007, guid: 1b1fcab2a941f384aa23dd0116619260, type: 3}
+      propertyPath: boltCloseSFX
+      value: 
+      objectReference: {fileID: 8300000, guid: fed3cd95b6937424fa7fe1e3bcda4925, type: 3}
+    - target: {fileID: 5505288695693791007, guid: 1b1fcab2a941f384aa23dd0116619260, type: 3}
+      propertyPath: animationType
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5505288695693791007, guid: 1b1fcab2a941f384aa23dd0116619260, type: 3}
+      propertyPath: shootCooldown
+      value: 0.08
+      objectReference: {fileID: 0}
+    - target: {fileID: 5505288695693791007, guid: 1b1fcab2a941f384aa23dd0116619260, type: 3}
+      propertyPath: sideClosedGun
+      value: 
+      objectReference: {fileID: 1333942582, guid: 160ca8d5f7ed02642977046fe58cce23, type: 3}
+    - target: {fileID: 5505288695693791007, guid: 1b1fcab2a941f384aa23dd0116619260, type: 3}
+      propertyPath: reloadStartSFX
+      value: 
+      objectReference: {fileID: 8300000, guid: 6cdffbba9aca0354ca913423d56f9a5b, type: 3}
+    - target: {fileID: 5505288695693791007, guid: 1b1fcab2a941f384aa23dd0116619260, type: 3}
+      propertyPath: reloadFinishSFX
+      value: 
+      objectReference: {fileID: 8300000, guid: a7c7e15f438facb4a9dbc8d53e2ae934, type: 3}
+    - target: {fileID: 5749943196483966108, guid: 1b1fcab2a941f384aa23dd0116619260, type: 3}
+      propertyPath: UVModule.sprites.Array.data[0].sprite
+      value: 
+      objectReference: {fileID: -633872864, guid: f133e75f267d2024092a69a8062cb218, type: 3}
+    m_RemovedComponents: []
+    m_RemovedGameObjects:
+    - {fileID: 4220064600018607686, guid: 1b1fcab2a941f384aa23dd0116619260, type: 3}
+    - {fileID: 1135624990029880621, guid: 1b1fcab2a941f384aa23dd0116619260, type: 3}
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1b1fcab2a941f384aa23dd0116619260, type: 3}

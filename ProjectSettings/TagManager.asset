@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Undestructable
+  - Destructable
+  - Item
+  - Dummy
+  - Box
+  - Enemy
+  - Rounds
+  - Bush
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Destructable
+  - Water
+  - UI
+  - Walls
+  - Enemy
+  - Friendly
+  - Invisible
+  - Player
+  - PlayerTriggerZone
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: 'Top '
+    uniqueID: 3747320847
+    locked: 0

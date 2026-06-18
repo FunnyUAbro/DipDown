@@ -1,0 +1,1482 @@
+fileFormatVersion: 2
+guid: a704ebac7ad16124c89d72253b5d13bf
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 128
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Tileset_g4060_w50_i_55_DoubleWall_Brick_Striped_64x64_White_Red_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 340
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ab8fe0c5c64b5d43aa04ae4b4ce0130
+      internalID: 1399977738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_g4060_w50_i_55_DoubleWall_Brick_Striped_64x64_White_Red_1
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 340
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f85a4eb77144954d83f96fc3996f252
+      internalID: -360237811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_g4060_w50_i_55_DoubleWall_Brick_Striped_64x64_White_Red_2
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 340
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23e94bd612b673343a56233c36326506
+      internalID: -248074625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_g4060_w50_i_55_DoubleWall_Brick_Striped_64x64_White_Red_3
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 340
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 237da4b3e1cc1bb408219fc3250afc20
+      internalID: -405469850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_g4060_w50_i_55_DoubleWall_Brick_Striped_64x64_White_Red_4
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 340
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd6230590dd1a1e4cb3ee9fa12f3a931
+      internalID: -339092078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_g4060_w50_i_55_DoubleWall_Brick_Striped_64x64_White_Red_5
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 340
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c395d8d39d009044815ad6d3fd7824b
+      internalID: 1253569321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_g4060_w50_i_55_DoubleWall_Brick_Striped_64x64_White_Red_6
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 340
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc9d86d5b3c6b184e93c67dc2f48b37d
+      internalID: 1056796540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_g4060_w50_i_55_DoubleWall_Brick_Striped_64x64_White_Red_7
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 340
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a29f57ea1af5c7447a7c1933f876d928
+      internalID: -1883916785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_g4060_w50_i_55_DoubleWall_Brick_Striped_64x64_White_Red_8
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 340
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f038942cf7908ac4da9959a79ae6fa67
+      internalID: -1554278396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_g4060_w50_i_55_DoubleWall_Brick_Striped_64x64_White_Red_9
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 340
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10f960b972555764c98dc00da7f61100
+      internalID: -1708453028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_g4060_w50_i_55_DoubleWall_Brick_Striped_64x64_White_Red_10
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 340
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d13c4bfe1e2c6347a2b28343bf0d402
+      internalID: -29647001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_g4060_w50_i_55_DoubleWall_Brick_Striped_64x64_White_Red_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 272
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82b619879b97cad4391d3513744b11d5
+      internalID: -1575847855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_g4060_w50_i_55_DoubleWall_Brick_Striped_64x64_White_Red_12
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 272
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f905b09a07610494fb0665894f139f3e
+      internalID: 786701484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_g4060_w50_i_55_DoubleWall_Brick_Striped_64x64_White_Red_13
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 272
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e69157dd7c7c1b428e539356ef7dd3d
+      internalID: 1388030553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_g4060_w50_i_55_DoubleWall_Brick_Striped_64x64_White_Red_14
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 272
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d577dd304fa31843b811f5d2bcfcf87
+      internalID: 1367229348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_g4060_w50_i_55_DoubleWall_Brick_Striped_64x64_White_Red_15
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 272
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f485c47c6b8bcc84588baa9bd1c71adb
+      internalID: -754340039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_g4060_w50_i_55_DoubleWall_Brick_Striped_64x64_White_Red_16
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 272
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78ea89ce7e7a5ca4bb9231297067e049
+      internalID: 1241555276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_g4060_w50_i_55_DoubleWall_Brick_Striped_64x64_White_Red_17
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 272
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4511acec378a54e4a860eafc5b0c0169
+      internalID: 1905007096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_g4060_w50_i_55_DoubleWall_Brick_Striped_64x64_White_Red_18
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 272
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31232a694f1f7ba4698dc6915f190a7d
+      internalID: 2145934984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_g4060_w50_i_55_DoubleWall_Brick_Striped_64x64_White_Red_19
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 272
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8e5e19423b43b04e935058c7300c059
+      internalID: -1042363280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_g4060_w50_i_55_DoubleWall_Brick_Striped_64x64_White_Red_20
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 272
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 782be8d75cbb15846a544de22e988617
+      internalID: 1852359106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_g4060_w50_i_55_DoubleWall_Brick_Striped_64x64_White_Red_21
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 272
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81b0a2ba0a499524894ece3af8c5df37
+      internalID: 1254131759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_g4060_w50_i_55_DoubleWall_Brick_Striped_64x64_White_Red_22
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 204
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72f2abb1c7deb5144bec945f8a8eb376
+      internalID: 1741592203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_g4060_w50_i_55_DoubleWall_Brick_Striped_64x64_White_Red_23
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 204
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d8a0cffe25b17e4f9f183b6f3d2888b
+      internalID: 507218778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_g4060_w50_i_55_DoubleWall_Brick_Striped_64x64_White_Red_24
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 204
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b4d9cab1c76ebd4abb233d14bbc5187
+      internalID: 1683008032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_g4060_w50_i_55_DoubleWall_Brick_Striped_64x64_White_Red_25
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 204
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a384ed09d4c2131428a35d5e78b1082c
+      internalID: -559940870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_g4060_w50_i_55_DoubleWall_Brick_Striped_64x64_White_Red_26
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 204
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25504f4a60401144d87db169ad712e79
+      internalID: 592454311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_g4060_w50_i_55_DoubleWall_Brick_Striped_64x64_White_Red_27
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 204
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e48df06a574446439a9bf99b85e13c9
+      internalID: -1632583827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_g4060_w50_i_55_DoubleWall_Brick_Striped_64x64_White_Red_28
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 204
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73ca377cec4be9544be81ac3208b9161
+      internalID: 1562644723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_g4060_w50_i_55_DoubleWall_Brick_Striped_64x64_White_Red_29
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 204
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4bb57014e3893246be534fe98d778d7
+      internalID: 191096817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_g4060_w50_i_55_DoubleWall_Brick_Striped_64x64_White_Red_30
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 204
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b638b5bd090e5be46bcfb23ea7f60f44
+      internalID: -370255749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_g4060_w50_i_55_DoubleWall_Brick_Striped_64x64_White_Red_31
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 204
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c764ecc8a226b349800a2930a6b021d
+      internalID: 2119457064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_g4060_w50_i_55_DoubleWall_Brick_Striped_64x64_White_Red_32
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 204
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1874fdb0953b83741ae11feb45adabc2
+      internalID: -741300875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_g4060_w50_i_55_DoubleWall_Brick_Striped_64x64_White_Red_33
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 136
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f5e9799ed1b67048a84ee25df2fc168
+      internalID: 1311960083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_g4060_w50_i_55_DoubleWall_Brick_Striped_64x64_White_Red_34
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 136
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e59c06071aa05946be0cce43ec91c50
+      internalID: 1662470871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_g4060_w50_i_55_DoubleWall_Brick_Striped_64x64_White_Red_35
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 136
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13cb6004414cbc34bbe5429044efb8a2
+      internalID: -1362630318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_g4060_w50_i_55_DoubleWall_Brick_Striped_64x64_White_Red_36
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 136
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae5b16f4cdf933e4ab715b15c0c35a8b
+      internalID: 1406969056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_g4060_w50_i_55_DoubleWall_Brick_Striped_64x64_White_Red_37
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 136
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08ae228d7e9c0434f92f5e31a6b37f55
+      internalID: 1555310270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_g4060_w50_i_55_DoubleWall_Brick_Striped_64x64_White_Red_38
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 136
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef6b70f0804d7b245a4c1d04a7aef347
+      internalID: -301417491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_g4060_w50_i_55_DoubleWall_Brick_Striped_64x64_White_Red_39
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 136
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd998690edaf0f942998d17b14570a6d
+      internalID: 1488894910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_g4060_w50_i_55_DoubleWall_Brick_Striped_64x64_White_Red_40
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 136
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eab8481d687ec914b9d67abeab8c0eef
+      internalID: -76612299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_g4060_w50_i_55_DoubleWall_Brick_Striped_64x64_White_Red_41
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 136
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccd24233fa9700041bf5bf083aea0c0d
+      internalID: -942713971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_g4060_w50_i_55_DoubleWall_Brick_Striped_64x64_White_Red_42
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 136
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2240fe9ab6f2c734fb46628b367b3957
+      internalID: 1184484697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_g4060_w50_i_55_DoubleWall_Brick_Striped_64x64_White_Red_43
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 136
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caa910770f4e376499998a2270981d82
+      internalID: 1778558470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_g4060_w50_i_55_DoubleWall_Brick_Striped_64x64_White_Red_44
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 68
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f60b8f23157ffb84492f1f0da4a85690
+      internalID: -557903732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_g4060_w50_i_55_DoubleWall_Brick_Striped_64x64_White_Red_45
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 68
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6057a496777de88428062d0d0bf6bbd7
+      internalID: 1703468171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_g4060_w50_i_55_DoubleWall_Brick_Striped_64x64_White_Red_46
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 68
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cad560d0a076744ea3a98cd40953739
+      internalID: 1265541759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_g4060_w50_i_55_DoubleWall_Brick_Striped_64x64_White_Red_47
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 68
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11872cc6eaef9a442a51a26bb7a9ebcd
+      internalID: -1857644534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_g4060_w50_i_55_DoubleWall_Brick_Striped_64x64_White_Red_48
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 68
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91a1a8991579bc84f86f40f42564c15b
+      internalID: -1731514019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_g4060_w50_i_55_DoubleWall_Brick_Striped_64x64_White_Red_49
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 68
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50ff5bf683e2c0c4a9f5feaf055fbde3
+      internalID: 998348899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_g4060_w50_i_55_DoubleWall_Brick_Striped_64x64_White_Red_50
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 68
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41ef6f1656923774f827b71564c74536
+      internalID: -1924857284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_g4060_w50_i_55_DoubleWall_Brick_Striped_64x64_White_Red_51
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 68
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37fe5344bfea1b042b4408c934128960
+      internalID: -777576459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_g4060_w50_i_55_DoubleWall_Brick_Striped_64x64_White_Red_52
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 68
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee97933606f8dd64c9491d3ad08d5103
+      internalID: 675046135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_g4060_w50_i_55_DoubleWall_Brick_Striped_64x64_White_Red_53
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 68
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab0ec77c48e31e247b544bb12e41676d
+      internalID: -1501400745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_g4060_w50_i_55_DoubleWall_Brick_Striped_64x64_White_Red_54
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 68
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be450657d6d21c241b7fe0f0b0d50e63
+      internalID: 486524196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_g4060_w50_i_55_DoubleWall_Brick_Striped_64x64_White_Red_55
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93e4fa8d231a21d42ab76fa47cc354fc
+      internalID: 400009202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_g4060_w50_i_55_DoubleWall_Brick_Striped_64x64_White_Red_56
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d9d9fdd3c2b2dd48aacd1f28b62c681
+      internalID: 1665621797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_g4060_w50_i_55_DoubleWall_Brick_Striped_64x64_White_Red_57
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38c5ab4ffd5902b498c64f860fd625d8
+      internalID: 408081837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_g4060_w50_i_55_DoubleWall_Brick_Striped_64x64_White_Red_58
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac6b5eb26fc1e614681390e6702f953c
+      internalID: 689419325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_g4060_w50_i_55_DoubleWall_Brick_Striped_64x64_White_Red_59
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b096d0cedc7e62d40b0df0b97db41ec0
+      internalID: -390712651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_g4060_w50_i_55_DoubleWall_Brick_Striped_64x64_White_Red_60
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68090c9d15b238b4d9e8e28a1da67a4a
+      internalID: -1325763737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Tileset_g4060_w50_i_55_DoubleWall_Brick_Striped_64x64_White_Red_0: 1399977738
+      Tileset_g4060_w50_i_55_DoubleWall_Brick_Striped_64x64_White_Red_1: -360237811
+      Tileset_g4060_w50_i_55_DoubleWall_Brick_Striped_64x64_White_Red_10: -29647001
+      Tileset_g4060_w50_i_55_DoubleWall_Brick_Striped_64x64_White_Red_11: -1575847855
+      Tileset_g4060_w50_i_55_DoubleWall_Brick_Striped_64x64_White_Red_12: 786701484
+      Tileset_g4060_w50_i_55_DoubleWall_Brick_Striped_64x64_White_Red_13: 1388030553
+      Tileset_g4060_w50_i_55_DoubleWall_Brick_Striped_64x64_White_Red_14: 1367229348
+      Tileset_g4060_w50_i_55_DoubleWall_Brick_Striped_64x64_White_Red_15: -754340039
+      Tileset_g4060_w50_i_55_DoubleWall_Brick_Striped_64x64_White_Red_16: 1241555276
+      Tileset_g4060_w50_i_55_DoubleWall_Brick_Striped_64x64_White_Red_17: 1905007096
+      Tileset_g4060_w50_i_55_DoubleWall_Brick_Striped_64x64_White_Red_18: 2145934984
+      Tileset_g4060_w50_i_55_DoubleWall_Brick_Striped_64x64_White_Red_19: -1042363280
+      Tileset_g4060_w50_i_55_DoubleWall_Brick_Striped_64x64_White_Red_2: -248074625
+      Tileset_g4060_w50_i_55_DoubleWall_Brick_Striped_64x64_White_Red_20: 1852359106
+      Tileset_g4060_w50_i_55_DoubleWall_Brick_Striped_64x64_White_Red_21: 1254131759
+      Tileset_g4060_w50_i_55_DoubleWall_Brick_Striped_64x64_White_Red_22: 1741592203
+      Tileset_g4060_w50_i_55_DoubleWall_Brick_Striped_64x64_White_Red_23: 507218778
+      Tileset_g4060_w50_i_55_DoubleWall_Brick_Striped_64x64_White_Red_24: 1683008032
+      Tileset_g4060_w50_i_55_DoubleWall_Brick_Striped_64x64_White_Red_25: -559940870
+      Tileset_g4060_w50_i_55_DoubleWall_Brick_Striped_64x64_White_Red_26: 592454311
+      Tileset_g4060_w50_i_55_DoubleWall_Brick_Striped_64x64_White_Red_27: -1632583827
+      Tileset_g4060_w50_i_55_DoubleWall_Brick_Striped_64x64_White_Red_28: 1562644723
+      Tileset_g4060_w50_i_55_DoubleWall_Brick_Striped_64x64_White_Red_29: 191096817
+      Tileset_g4060_w50_i_55_DoubleWall_Brick_Striped_64x64_White_Red_3: -405469850
+      Tileset_g4060_w50_i_55_DoubleWall_Brick_Striped_64x64_White_Red_30: -370255749
+      Tileset_g4060_w50_i_55_DoubleWall_Brick_Striped_64x64_White_Red_31: 2119457064
+      Tileset_g4060_w50_i_55_DoubleWall_Brick_Striped_64x64_White_Red_32: -741300875
+      Tileset_g4060_w50_i_55_DoubleWall_Brick_Striped_64x64_White_Red_33: 1311960083
+      Tileset_g4060_w50_i_55_DoubleWall_Brick_Striped_64x64_White_Red_34: 1662470871
+      Tileset_g4060_w50_i_55_DoubleWall_Brick_Striped_64x64_White_Red_35: -1362630318
+      Tileset_g4060_w50_i_55_DoubleWall_Brick_Striped_64x64_White_Red_36: 1406969056
+      Tileset_g4060_w50_i_55_DoubleWall_Brick_Striped_64x64_White_Red_37: 1555310270
+      Tileset_g4060_w50_i_55_DoubleWall_Brick_Striped_64x64_White_Red_38: -301417491
+      Tileset_g4060_w50_i_55_DoubleWall_Brick_Striped_64x64_White_Red_39: 1488894910
+      Tileset_g4060_w50_i_55_DoubleWall_Brick_Striped_64x64_White_Red_4: -339092078
+      Tileset_g4060_w50_i_55_DoubleWall_Brick_Striped_64x64_White_Red_40: -76612299
+      Tileset_g4060_w50_i_55_DoubleWall_Brick_Striped_64x64_White_Red_41: -942713971
+      Tileset_g4060_w50_i_55_DoubleWall_Brick_Striped_64x64_White_Red_42: 1184484697
+      Tileset_g4060_w50_i_55_DoubleWall_Brick_Striped_64x64_White_Red_43: 1778558470
+      Tileset_g4060_w50_i_55_DoubleWall_Brick_Striped_64x64_White_Red_44: -557903732
+      Tileset_g4060_w50_i_55_DoubleWall_Brick_Striped_64x64_White_Red_45: 1703468171
+      Tileset_g4060_w50_i_55_DoubleWall_Brick_Striped_64x64_White_Red_46: 1265541759
+      Tileset_g4060_w50_i_55_DoubleWall_Brick_Striped_64x64_White_Red_47: -1857644534
+      Tileset_g4060_w50_i_55_DoubleWall_Brick_Striped_64x64_White_Red_48: -1731514019
+      Tileset_g4060_w50_i_55_DoubleWall_Brick_Striped_64x64_White_Red_49: 998348899
+      Tileset_g4060_w50_i_55_DoubleWall_Brick_Striped_64x64_White_Red_5: 1253569321
+      Tileset_g4060_w50_i_55_DoubleWall_Brick_Striped_64x64_White_Red_50: -1924857284
+      Tileset_g4060_w50_i_55_DoubleWall_Brick_Striped_64x64_White_Red_51: -777576459
+      Tileset_g4060_w50_i_55_DoubleWall_Brick_Striped_64x64_White_Red_52: 675046135
+      Tileset_g4060_w50_i_55_DoubleWall_Brick_Striped_64x64_White_Red_53: -1501400745
+      Tileset_g4060_w50_i_55_DoubleWall_Brick_Striped_64x64_White_Red_54: 486524196
+      Tileset_g4060_w50_i_55_DoubleWall_Brick_Striped_64x64_White_Red_55: 400009202
+      Tileset_g4060_w50_i_55_DoubleWall_Brick_Striped_64x64_White_Red_56: 1665621797
+      Tileset_g4060_w50_i_55_DoubleWall_Brick_Striped_64x64_White_Red_57: 408081837
+      Tileset_g4060_w50_i_55_DoubleWall_Brick_Striped_64x64_White_Red_58: 689419325
+      Tileset_g4060_w50_i_55_DoubleWall_Brick_Striped_64x64_White_Red_59: -390712651
+      Tileset_g4060_w50_i_55_DoubleWall_Brick_Striped_64x64_White_Red_6: 1056796540
+      Tileset_g4060_w50_i_55_DoubleWall_Brick_Striped_64x64_White_Red_60: -1325763737
+      Tileset_g4060_w50_i_55_DoubleWall_Brick_Striped_64x64_White_Red_7: -1883916785
+      Tileset_g4060_w50_i_55_DoubleWall_Brick_Striped_64x64_White_Red_8: -1554278396
+      Tileset_g4060_w50_i_55_DoubleWall_Brick_Striped_64x64_White_Red_9: -1708453028
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
