@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1001 &8139205838470442161
+--- !u!1001 &6339190451269478756
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -8,25 +8,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1223018866957307345, guid: f46ce8727e9c80342bfd6f0ba2bf2e19, type: 3}
-      propertyPath: m_Size.x
-      value: 0.47
-      objectReference: {fileID: 0}
-    - target: {fileID: 1223018866957307345, guid: f46ce8727e9c80342bfd6f0ba2bf2e19, type: 3}
-      propertyPath: m_Size.y
-      value: 1.04
-      objectReference: {fileID: 0}
     - target: {fileID: 4632293855937437950, guid: f46ce8727e9c80342bfd6f0ba2bf2e19, type: 3}
       propertyPath: m_Name
-      value: Empty bottle Variant
+      value: item Zagatovka Variant
       objectReference: {fileID: 0}
     - target: {fileID: 6761810205374279205, guid: f46ce8727e9c80342bfd6f0ba2bf2e19, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -53.59495
+      value: -57.086067
       objectReference: {fileID: 0}
     - target: {fileID: 6761810205374279205, guid: f46ce8727e9c80342bfd6f0ba2bf2e19, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -18.274607
+      value: -18.288269
       objectReference: {fileID: 0}
     - target: {fileID: 6761810205374279205, guid: f46ce8727e9c80342bfd6f0ba2bf2e19, type: 3}
       propertyPath: m_LocalPosition.z
@@ -63,9 +55,63 @@ PrefabInstance:
     - target: {fileID: 7531399932867002987, guid: f46ce8727e9c80342bfd6f0ba2bf2e19, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 265479935, guid: 66206afc067d5e04db04d9baa0ed9547, type: 3}
-    m_RemovedComponents: []
+      objectReference: {fileID: -1881586624, guid: 66206afc067d5e04db04d9baa0ed9547, type: 3}
+    m_RemovedComponents:
+    - {fileID: 1223018866957307345, guid: f46ce8727e9c80342bfd6f0ba2bf2e19, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4632293855937437950, guid: f46ce8727e9c80342bfd6f0ba2bf2e19, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6451883690951622199}
   m_SourcePrefab: {fileID: 100100000, guid: f46ce8727e9c80342bfd6f0ba2bf2e19, type: 3}
+--- !u!1 &1706972668329658778 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4632293855937437950, guid: f46ce8727e9c80342bfd6f0ba2bf2e19, type: 3}
+  m_PrefabInstance: {fileID: 6339190451269478756}
+  m_PrefabAsset: {fileID: 0}
+--- !u!61 &6451883690951622199
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1706972668329658778}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.28, y: 1.28}
+    newSize: {x: 1.28, y: 1.28}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.95, y: 0.87}
+  m_EdgeRadius: 0

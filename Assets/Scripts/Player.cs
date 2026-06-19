@@ -1,4 +1,6 @@
+using JetBrains.Annotations;
 using TMPro;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public enum AnimationType
@@ -362,6 +364,9 @@ public class Player : MonoBehaviour
     }
     bool CheckForRounds()
     {
+        int missingAmmo = gunInHand.maxAmmo - gunInHand.ammo;
+        int maxMissingAmmo = missingAmmo;
+
         for (int i = 0; i < inventory.Length; i++)
         {
             if (inventory[i] == null)
@@ -374,13 +379,21 @@ public class Player : MonoBehaviour
 
                 if (pack.type == gunInHand.ammoType)
                 {
-                    gunInHand.ReloadStart(pack.TryGetAmmo(gunInHand.maxAmmo - gunInHand.ammo));
-
-                    return true;
+                    missingAmmo -= pack.TryGetAmmo(missingAmmo);               
                 }
             }
         }
-        return false;
+        if (missingAmmo < maxMissingAmmo)
+        {
+            gunInHand.ReloadStart(maxMissingAmmo - missingAmmo);
+
+            return true;
+        }
+        else
+        {
+            return false;
+        }
+
     }
     void TryReload()
     {
