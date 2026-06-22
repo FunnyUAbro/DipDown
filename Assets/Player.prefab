@@ -282,7 +282,7 @@ MonoBehaviour:
   - Type: 0
     Hold:
       BottomAnim: Idle
-      TopAnim: DefaultRightHandHoldGun
+      TopAnim: Empty
     Reload:
       BottomAnim: 
       TopAnim: 
@@ -320,8 +320,8 @@ MonoBehaviour:
       TopAnim: Empty
   - Type: 3
     Hold:
-      BottomAnim: AssaultReload
-      TopAnim: Empty
+      BottomAnim: AssaultHold
+      TopAnim: TopHandHold
     Reload:
       BottomAnim: SmgReload
       TopAnim: Empty
@@ -646,7 +646,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &2837011604681379961
 Transform:
   m_ObjectHideFlags: 0

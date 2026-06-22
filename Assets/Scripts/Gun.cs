@@ -30,6 +30,7 @@ public class Gun : MonoBehaviour
     public int reloadAmmo;
     public float reloadTime;
     public bool isReloading;
+    public bool noMag;
     [SerializeField] int damage;
     public AmmoType ammoType;
     public AnimationType animationType;
@@ -55,6 +56,7 @@ public class Gun : MonoBehaviour
     [SerializeField] AudioClip boltOpenSFX;
     [SerializeField] AudioClip boltCloseSFX;
     [SerializeField] AudioSource sourceSFX;
+
 
     void Start()
     {

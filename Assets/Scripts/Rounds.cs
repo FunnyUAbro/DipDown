@@ -21,7 +21,7 @@ public class Rounds : MonoBehaviour
     public int TryGetAmmo(int getAmount)
     {
         int returningAmount;
-        if (amount < getAmount)
+        if (amount <= getAmount)
         {
             returningAmount = amount;
             EmptyBox();

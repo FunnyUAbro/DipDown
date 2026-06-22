@@ -365,7 +365,13 @@ public class Player : MonoBehaviour
     bool CheckForRounds()
     {
         int missingAmmo = gunInHand.maxAmmo - gunInHand.ammo;
+        if (gunInHand.noMag == true)
+        {
+            missingAmmo = 1;
+        }
+
         int maxMissingAmmo = missingAmmo;
+
 
         for (int i = 0; i < inventory.Length; i++)
         {
@@ -379,7 +385,7 @@ public class Player : MonoBehaviour
 
                 if (pack.type == gunInHand.ammoType)
                 {
-                    missingAmmo -= pack.TryGetAmmo(missingAmmo);               
+                    missingAmmo -= pack.TryGetAmmo(missingAmmo);
                 }
             }
         }
