@@ -321,16 +321,16 @@ MonoBehaviour:
   - Type: 3
     Hold:
       BottomAnim: AssaultHold
-      TopAnim: TopHandHold
+      TopAnim: Empty
     Reload:
       BottomAnim: SmgReload
       TopAnim: Empty
     BoltOpen:
-      BottomAnim: AssaultHold
+      BottomAnim: AssaultHoldNoHand
       TopAnim: RightHandOpenGun
     BoltClose:
-      BottomAnim: AssaultHold
-      TopAnim: RightHandOpenGun
+      BottomAnim: AssaultHoldNoHand
+      TopAnim: RightHandCloseGun
   - Type: 4
     Hold:
       BottomAnim: ShotgunHold

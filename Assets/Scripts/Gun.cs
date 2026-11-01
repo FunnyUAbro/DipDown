@@ -1,13 +1,22 @@
 using UnityEngine;
-using UnityEngine.Rendering;
 
+enum ChamberState
+{
+    Empty,
+    Armed,
+    Used
+}
+ 
 enum BoltState
 {
     Closed,
+    OpeningGas,
     Open,
+    ClosingSpring,
     OpenManual,
-    Ready,
-    Used
+    OpeningManual,
+    ClosingManual,
+    Ready
 }
 
 enum BoltType
@@ -20,17 +29,22 @@ enum BoltType
 
 public class Gun : MonoBehaviour
 {
+
     float timerShootCooldown = 0;
     [SerializeField] BoltType boltType;
-    BoltState boltState;
+    ChamberState chamberState = ChamberState.Armed;
+    BoltState boltState = BoltState.Ready;
+    public float boltPositionCoef;
     [SerializeField] float shootCooldown;
+    [SerializeField] float multiplierManualBoltOperation;
     [SerializeField] float punchPower;
     public int ammo;
     public int maxAmmo;
     public int reloadAmmo;
     public float reloadTime;
     public bool isReloading;
-    public bool noMag;
+    public bool noMagLoad;
+    bool lockBoltOnEmpty;
     [SerializeField] int damage;
     public AmmoType ammoType;
     public AnimationType animationType;
@@ -39,6 +53,7 @@ public class Gun : MonoBehaviour
     [SerializeField] ParticleSystem particleSystem;
     [SerializeField] ParticleSystem particleSystem2;
     [SerializeField] ParticleSystem casePS;
+    [SerializeField] ParticleSystem bulletPS;
     [SerializeField] ParticleSystem magPS;
 
     [SerializeField] SpriteRenderer topSprite;
@@ -58,6 +73,13 @@ public class Gun : MonoBehaviour
     [SerializeField] AudioSource sourceSFX;
 
 
+    const float c_autoOpenCoef = 0.3f;
+    const float c_autoCloseCoef = 1f - c_autoOpenCoef;
+    const float c_caseDropCoef = 0.8f;
+    const float c_bulletPickUpCoef = 0.8f;
+    const float c_manualOpenCoef = 0.55f;
+    const float c_manualCloseCoef = 1 - c_manualOpenCoef;
+
     void Start()
     {
         ammo = maxAmmo;
@@ -65,12 +87,126 @@ public class Gun : MonoBehaviour
 
     void Update()
     {
-        timerShootCooldown -= Time.deltaTime;
+        //timerShootCooldown -= Time.deltaTime;
 
-        if (timerShootCooldown < 0 && boltState == BoltState.Open && boltType != BoltType.Bolt)
+        //if (timerShootCooldown < 0 && boltState == BoltState.Open && boltType != BoltType.Bolt)
+        //{
+        //    CloseBolt();
+        //}
+
+        //boltPositionCoef += Time.deltaTime * boltDirection;
+
+        //if (boltPositionCoef > 1f)
+        //{
+        //    boltDirection = 0f;
+        //    boltPositionCoef = 1f;
+        //}
+        //else if (boltPositionCoef < 0)
+        //{
+        //    boltDirection = 0f;
+        //    boltPositionCoef = f;
+        //}
+
+        switch (boltState)
         {
-            CloseBolt();
+            case BoltState.OpeningGas:
+                { 
+                    float openTime = shootCooldown * c_autoOpenCoef;
+                    float thisFrameTimeToOpenTime = Time.deltaTime / openTime;
+                    boltPositionCoef += thisFrameTimeToOpenTime;
+
+
+                    //if (boltPositionCoef > c_caseDropCoef)
+                    //{
+                        
+                    //}
+
+                    if (boltPositionCoef > 1f)
+                    {
+                        boltPositionCoef = 1f;
+
+                        if (ammo > 0)
+                        {
+                            boltState = BoltState.ClosingSpring;
+                        }
+                        else
+                        {
+                            boltState = BoltState.Open;
+                        }
+
+                        OpenBolt();
+                    }
+                }
+                break;
+
+            case BoltState.Open:
+
+                break;
+
+            case BoltState.ClosingSpring:
+                //Двигает и закрывает Bolt
+                {
+                    float closeTime = shootCooldown * c_autoCloseCoef;
+                    float thisFrameTimeToOpenTime = Time.deltaTime / closeTime;
+                    boltPositionCoef -= thisFrameTimeToOpenTime;
+
+                    if (boltPositionCoef < 0f)
+                    {
+                        //if (chamberState == ChamberState.Armed)
+                        //{
+                        //    //Выкидывает патрон
+                        //}
+                        //else if (chamberState == ChamberState.Used)
+                        //{
+                        //    //Выкидует гильдзу
+                        //}
+
+                        boltPositionCoef = 0f;
+                        CloseBolt();
+                    }
+                }
+                break;
+
+            case BoltState.Closed:
+                //Не готов/готов стрелять
+                break;
+
+            case BoltState.OpeningManual:
+                { 
+                    float openTime = shootCooldown * multiplierManualBoltOperation * c_manualOpenCoef;
+                    float thisFrameTimeToOpenTime = Time.deltaTime / openTime;
+                    boltPositionCoef += thisFrameTimeToOpenTime;
+
+                    if (boltPositionCoef > 1f)
+                    {
+                        boltPositionCoef = 1f;
+                        OpenBolt(); 
+                        boltState = BoltState.OpenManual;
+                    }
+                }
+                break;
+
+            case BoltState.OpenManual:
+                break;
+
+            case BoltState.ClosingManual:
+                {
+                    float openTime = shootCooldown * multiplierManualBoltOperation * c_manualCloseCoef;
+                    float thisFrameTimeToOpenTime = Time.deltaTime / openTime;
+                    boltPositionCoef -= thisFrameTimeToOpenTime;
+
+                    if (boltPositionCoef < 0f)
+                    {
+                        boltPositionCoef = 0f;
+                        CloseBolt();
+                    }
+                }
+                break;
+
+            case BoltState.Ready:
+                break;
         }
+
     }
 
     public void PullTrigger()
@@ -89,11 +225,19 @@ public class Gun : MonoBehaviour
     {
         if (boltState == BoltState.Ready)
         {
-            Shoot();
-
-            if (boltType != BoltType.Bolt)
+            if (chamberState == ChamberState.Armed)
             {
-                OpenBolt();
+                Shoot();
+
+                if (boltType != BoltType.Bolt)
+                {
+                    boltState = BoltState.OpeningGas;
+                }
+            }
+            else
+            {
+                //Проиграть вот этот глухой звук тошо нет патрона
+                boltState = BoltState.Closed;
             }
         }
     }
@@ -145,11 +289,7 @@ public class Gun : MonoBehaviour
 
         }
 
-        timerShootCooldown = shootCooldown;
-
-        ammo -= 1;
-
-        boltState = BoltState.Used;
+        chamberState = ChamberState.Used;
 
         void HitManage(RaycastHit2D hit)
         {
@@ -249,48 +389,73 @@ public class Gun : MonoBehaviour
         //ammoCounter.SetCounter(ammo);
     }
 
-    void OpenBolt(BoltState state = BoltState.Open)
+    void OpenBolt()
     {
-        if (boltState == BoltState.Ready)
-        {
-            ammo -= 1;
+        //if (boltState == BoltState.Ready)
+        //{
+        //    ammo -= 1;
 
-            casePS.Play();
-        }
-        else if (boltState == BoltState.Used)
+        //    casePS.Play();
+        //}
+        //else if (boltState == BoltState.Used)
+        //{
+        //    casePS.Play();
+        //}
+        //boltState = state;
+
+        //openGun.gameObject.SetActive(true);
+
+        if (chamberState == ChamberState.Armed)
         {
+            //Выкидывает патрон
+            bulletPS.Play();
+        }
+        else if (chamberState == ChamberState.Used)
+        {
+            //Выкидует гильдзу
             casePS.Play();
         }
-        boltState = state;
+        //Заряжает патрон
+        if (ammo > 0)
+        {
+            ammo--;
+            chamberState = ChamberState.Armed;
+        }
+        else
+            chamberState = ChamberState.Empty;
+
         topSprite.sprite = openGun;
         sideSprite.sprite = sideOpenGun;
-        //openGun.gameObject.SetActive(true);
+
     }
 
     void CloseBolt()
     {
-        if (ammo > 0)
-        {
-            boltState = BoltState.Ready;
-        }
-        else
-            boltState = BoltState.Closed;
+        //if (ammo > 0)
+        //{
+        //    boltState = BoltState.Ready;
+        //}
+        //else
+        //    boltState = BoltState.Closed;
 
         //openGun.gameObject.SetActive(false);
+
+        boltState = BoltState.Ready;
+
         topSprite.sprite = closedGun;
 
         sideSprite.sprite = sideClosedGun;
     }
 
-    public void OpenBoltManual()
+    public void StartOpenBoltManual()
     {
-        OpenBolt(BoltState.OpenManual);
+        boltState = BoltState.OpeningManual;
         sourceSFX.PlayOneShot(boltOpenSFX);
     }
 
-    public void CloseBoltManual()
+    public void FinishBoltManual()
     {
-        CloseBolt();
+        boltState = BoltState.ClosingManual;
         sourceSFX.PlayOneShot(boltCloseSFX);
     }
 }

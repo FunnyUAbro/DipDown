@@ -10007,6 +10007,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   boltType: 1
+  boltPositionCoef: 0
   shootCooldown: 0.3
   punchPower: 0.9
   ammo: 12
@@ -10014,6 +10015,7 @@ MonoBehaviour:
   reloadAmmo: 0
   reloadTime: 1.5
   isReloading: 0
+  noMag: 0
   damage: 35
   ammoType: 1
   animationType: 1
@@ -10024,6 +10026,7 @@ MonoBehaviour:
   particleSystem: {fileID: 4940901077685157411}
   particleSystem2: {fileID: 4940901077685157411}
   casePS: {fileID: 5749943196483966108}
+  bulletPS: {fileID: 5749943196483966108}
   magPS: {fileID: 3168599969684267956}
   topSprite: {fileID: 1047496224053607538}
   sideSprite: {fileID: 4182958453878219652}

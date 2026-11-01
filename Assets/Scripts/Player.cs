@@ -64,6 +64,8 @@ public class Player : MonoBehaviour
     float rightHandTimerRemember;
     [SerializeField] Animator legsAnimator;
 
+    [SerializeField] SliderPanel sliderPanel;
+
 
     //[SerializeField] AmmoCounter ammoCounter;
 
@@ -115,46 +117,30 @@ public class Player : MonoBehaviour
             TryReload();
         }
 
-        if (Input.GetKeyDown(KeyCode.Mouse1) && gunInHand != null)
+        if (Input.GetKeyDown(KeyCode.Mouse1) && gunInHand != null && canAttack)
         {
-            //if (gunInHand.animationType == AnimationType.Shotgun)
-            //{
-            //    bodyAnimator.Play("ShotgunOpen");   
-            //}
-            //else if (gunInHand.animationType == AnimationType.Pistol)
-            //{
-            //    //Po pistoletnomy open the thing 
-
-            //}
-            //else
-            //{
-            //    rightHandAnimator.Play("RightHandOpenGun");
-            //}
-
             bottomAnimator.Play(weaponAnimations[(int)gunInHand.animationType].BoltOpen.BottomAnim);
             topAnimator.Play(weaponAnimations[(int)gunInHand.animationType].BoltOpen.TopAnim);
 
-            gunInHand.OpenBoltManual();
+            //сюда добавить чик-чик позицыю чтобы брать 
+
+            sliderPanel.StartDisplay(gunInHand);
+            gunInHand.StartOpenBoltManual();
         }
-        if (Input.GetKeyUp(KeyCode.Mouse1) && gunInHand != null)
+        else if (Input.GetKey(KeyCode.Mouse1) && gunInHand != null && canAttack)
         {
-            //if (gunInHand.animationType == AnimationType.Shotgun)
-            //{
-            //    bodyAnimator.Play("ShotgunClose");
 
-            //}
-            //else
-            //{
-            //    rightHandAnimator.Play("RightHandCloseGun");
-
-            //    rightHandClose = true;
-            //}
+        }
+        else if (Input.GetKeyUp(KeyCode.Mouse1) && gunInHand != null && canAttack)
+        {
 
             bottomAnimator.Play(weaponAnimations[(int)gunInHand.animationType].BoltClose.BottomAnim);
             topAnimator.Play(weaponAnimations[(int)gunInHand.animationType].BoltClose.TopAnim);
 
-            gunInHand.CloseBoltManual();
+            sliderPanel.StopDisplay();
+            gunInHand.FinishBoltManual();
         }
+
 
         if (canMove == true)
         {
@@ -365,7 +351,7 @@ public class Player : MonoBehaviour
     bool CheckForRounds()
     {
         int missingAmmo = gunInHand.maxAmmo - gunInHand.ammo;
-        if (gunInHand.noMag == true)
+        if (gunInHand.noMagLoad == true)
         {
             missingAmmo = 1;
         }

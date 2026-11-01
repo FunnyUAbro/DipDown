@@ -10,11 +10,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 358768868469966887, guid: 1b1fcab2a941f384aa23dd0116619260, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -45.546906
+      value: -47.94
       objectReference: {fileID: 0}
     - target: {fileID: 358768868469966887, guid: 1b1fcab2a941f384aa23dd0116619260, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -8.1050205
+      value: -8.88
       objectReference: {fileID: 0}
     - target: {fileID: 358768868469966887, guid: 1b1fcab2a941f384aa23dd0116619260, type: 3}
       propertyPath: m_LocalPosition.z
@@ -176,6 +176,10 @@ PrefabInstance:
       propertyPath: reloadFinishSFX
       value: 
       objectReference: {fileID: 8300000, guid: c4b8a8c1486337248b49f511de13fb11, type: 3}
+    - target: {fileID: 5505288695693791007, guid: 1b1fcab2a941f384aa23dd0116619260, type: 3}
+      propertyPath: multiplierManualBoltOperation
+      value: 6.3
+      objectReference: {fileID: 0}
     - target: {fileID: 5749943196483966108, guid: 1b1fcab2a941f384aa23dd0116619260, type: 3}
       propertyPath: UVModule.sprites.Array.data[0].sprite
       value: 
