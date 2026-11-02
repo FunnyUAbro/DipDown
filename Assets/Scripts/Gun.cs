@@ -124,6 +124,7 @@ public class Gun : MonoBehaviour
                     if (boltPositionCoef > 1f)
                     {
                         boltPositionCoef = 1f;
+                        
 
                         if (ammo > 0)
                         {

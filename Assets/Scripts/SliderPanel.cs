@@ -1,9 +1,11 @@
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class SliderPanel : MonoBehaviour
 {
     [SerializeField] RectTransform sliderRT;
+    [SerializeField] TMP_Text ammoText;
 
     Gun gun;
 
@@ -15,12 +17,22 @@ public class SliderPanel : MonoBehaviour
     void Update()
     {
         SetSliderPosition();
+
+        if (gun.boltPositionCoef > 0.5f)
+        {
+            ShowAmmo();
+        }
+        else
+        {
+            ammoText.text = null;
+        }
     }
 
     public void StartDisplay(Gun newGun)
     {
         this.gameObject.SetActive(true);
         gun = newGun;
+
         CancelInvoke();
     }
 
@@ -33,19 +45,15 @@ public class SliderPanel : MonoBehaviour
     void DisableDisplay()
     {
         this.gameObject.SetActive(false);
-
     }
 
-    public void ShowAmmo(byte ammo)
+    void ShowAmmo()
     {
-        //Когда доехали до края
-        
+        ammoText.text = $"{gun.ammo.ToString()}/{gun.maxAmmo}";
     }
 
     public void SetSliderPosition()
     {
-        //Принимаем от 0 до 1 превращаем в позицию слайжера
-
         sliderRT.anchoredPosition = new Vector2(gun.boltPositionCoef * -790f, 0);
     }
 }

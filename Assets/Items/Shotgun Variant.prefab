@@ -105,6 +105,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 289565497, guid: 5eb8a4f634e8b004c9f9b2746a98a5b9, type: 3}
     - target: {fileID: 5505288695693791007, guid: 1b1fcab2a941f384aa23dd0116619260, type: 3}
+      propertyPath: noMagLoad
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5505288695693791007, guid: 1b1fcab2a941f384aa23dd0116619260, type: 3}
       propertyPath: reloadSFX
       value: 
       objectReference: {fileID: 8300000, guid: 29ce3f4a6325a19498bac7716e25f568, type: 3}
